@@ -1,0 +1,76 @@
+.container {
+  font-family: "Electrolize", sans-serif;
+  color: #02e382;
+}
+.details {
+  margin-top: 1rem;
+  position: relative;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.info h1,
+.info p,
+.info h3 {
+  text-align: left;
+}
+
+.imageDetail {
+  max-width: 100%;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.9809173669467787) 33%,
+    rgba(131, 161, 148, 0.7904411764705882) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  /* border-radius: 30px; */
+  margin: 0;
+  padding: 30px;
+}
+
+.genres {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.platforms {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.genre {
+  border: 1px solid #02e382;
+  color: #000;
+  background-color: #02e382;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+  font-size: 1em;
+  max-width: 50%;
+  margin-left: 5px;
+}
+
+.platform {
+  border: 1px solid #02e382;
+  color: #000;
+  background-color: #02e382;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+  font-size: 1em;
+  max-width: 50%;
+  margin-left: 5px;
+}

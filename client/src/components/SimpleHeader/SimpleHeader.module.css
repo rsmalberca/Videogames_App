@@ -1,0 +1,69 @@
+.simpleHeader {
+  font-family: "Electrolize", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 0;
+  -webkit-box-shadow: 0 10px 6px -6px #1bfd9c;
+  -moz-box-shadow: 0 10px 6px -6px #1bfd9c;
+  box-shadow: 0 10px 6px -6px #1bfd9c;
+}
+.logo {
+  height: 45px;
+  min-width: 20%;
+  object-fit: contain;
+}
+
+.backHome {
+  --green: #1bfd9c;
+  font-family: "Electrolize", sans-serif;
+  font-size: 15px;
+  padding: 0.5em 2em;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: inherit;
+  border-radius: 0.6em;
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(
+    to right,
+    rgba(27, 253, 156, 0.1) 1%,
+    transparent 40%,
+    transparent 60%,
+    rgba(27, 253, 156, 0.1) 100%
+  );
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4),
+    0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+
+.backHome:hover {
+  color: #82ffc9;
+  box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
+  cursor: pointer;
+}
+
+.backHome:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform 0.4s ease-in-out;
+  background: linear-gradient(
+    to right,
+    transparent 1%,
+    rgba(27, 253, 156, 0.1) 40%,
+    rgba(27, 253, 156, 0.1) 60%,
+    transparent 100%
+  );
+}
+
+.backHome:hover:before {
+  transform: translateX(15em);
+}

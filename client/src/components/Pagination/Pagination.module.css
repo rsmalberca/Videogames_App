@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.noActive {
+  display: inline;
+}
+.isActive {
+  display: inline;
+}
+
+.noActive button {
+  background: transparent;
+  font-family: "Electrolize", sans-serif;
+  color: #02e382;
+  margin-right: 0.8em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.isActive button {
+  font-family: "Electrolize", sans-serif;
+  margin-right: 0.8em;
+  padding: 0.35em 0.45em;
+  font-weight: bold;
+  color: #000;
+  background-color: #02e382;
+  border-radius: 20%;
+  -webkit-box-shadow: 0 10px 6px -6px #1bfd9c;
+  -moz-box-shadow: 0 10px 6px -6px #1bfd9c;
+  box-shadow: 0 10px 6px -6px #1bfd9c;
+}
