@@ -4,6 +4,8 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Home from "./components/Home/Home";
 import VideogameDetail from "./components/VideogameDetail/VideogameDetail";
 import NewVideogame from "./components/NewVideogame/NewVideogame";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001/";
 
 function App() {
   return (
