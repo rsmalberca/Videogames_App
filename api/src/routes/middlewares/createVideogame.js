@@ -2,7 +2,7 @@ require("dotenv").config({ path: "../../../.env" });
 const express = require("express");
 const router = express.Router();
 const { Videogame, Genre } = require("../../db");
-const { getAllGenres } = require("../../controllers/genres");
+// const { getAllGenres } = require("../../controllers/genres");
 
 router.post("/", async (req, res) => {
   const { name, description, image, released, rating, genres, platforms } =
