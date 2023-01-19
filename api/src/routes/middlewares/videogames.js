@@ -24,7 +24,7 @@ router.get("/", async (req, res) => {
       );
       if (!matchedGames.length) {
         res.status(404).json({
-          message: "There are no video games with the specified name",
+          message: `There are no video games with the name ${name}`,
         });
       } else {
         res.status(200).json(matchedGames.slice(0, 15));
