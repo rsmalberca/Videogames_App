@@ -150,7 +150,7 @@ These are the routes used:
     - Receives all the required data from the controlled video game creation form.
     - Creates a new video game and associates, through the database relations, the genres of the video game.
 
-## Base de datos
+## Database
 
 The database was created using technologies such as [Sequelize](https://sequelize.org/) and [PostgreSQL](https://www.postgresql.org/).
 
@@ -166,6 +166,7 @@ The models\*\*\* defined for the database are shown below:
 - Videogame model with the following attributes:
 
   - ID:
+    - Primary key
     - type: DataTypes.UUID
   - Name:
     - type: DataTypes.STRING
